@@ -1,6 +1,7 @@
 import app from './app';
 import { config } from './config/env.config';
 import { connectDB } from './config/database.config';
+import { consoleIt } from './utils/consoleIt';
 
 const PORT = config.port;
 
@@ -9,8 +10,8 @@ connectDB();
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Server is running on port ${PORT}`);
-  console.log(`📍 Environment: ${config.nodeEnv}`);
-  console.log(`🌐 http://localhost:${PORT}`);
+  consoleIt.log(`🚀 Server is running on port ${PORT}`);
+  consoleIt.log(`📍 Environment: ${config.nodeEnv}`);
+  consoleIt.log(`🌐 http://localhost:${PORT}`);
 });
 

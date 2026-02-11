@@ -1,7 +1,4 @@
 # Express TypeScript Server
-
-A production-ready Express.js server setup with TypeScript, following industry-standard folder structure with dot notation naming convention.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
