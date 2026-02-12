@@ -13,7 +13,6 @@ build/
 .env.*.local
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -31,3 +30,7 @@ npm-debug.log*
 # TypeScript
 *.tsbuildinfo
 
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
